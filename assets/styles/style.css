@@ -23,7 +23,7 @@ body
 {
     margin: 0;
     height: 100vh;
-    background-color: #000;
+    background: linear-gradient(to bottom, #ffffff 0%, #000000 50%);
 }
 
 .namebox1
@@ -74,4 +74,18 @@ body
     height:100%;
     width:100%;
     margin-top: 1vh;
+}
+
+.aboutMe
+{
+    border-radius: 2px;
+    border: #fff 2px solid;
+}
+
+.profilephoto
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: #939393 solid 3px;
 }
