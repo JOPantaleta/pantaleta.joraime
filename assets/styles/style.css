@@ -1,21 +1,35 @@
 body 
 {   
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     margin: 0 !important;
     padding: 0 !important;
     box-sizing: content-box !important;
-    background: url(../images/bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
+#homeSection
+{
+    margin: 0;
+    height: 90vh;
+    background: url(../images/bg.jpg) #939393;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#profileSection
+{
+    margin: 0;
+    height: 100vh;
+    background-color: #000;
+}
 
 .namebox1
 {
     margin-bottom: 3px;
-    height: 10vh;
+    height: 6vh;
     width: 100%;
     background-color: #000;
     color: #ffffff;
@@ -23,7 +37,7 @@ body
 .namebox2
 {
     margin-bottom: 1vh;
-    height: 10vh;
+    height: 6vh;
     width: 100%;
     background-color: #000;
     color: #ffffff;
@@ -32,7 +46,8 @@ body
 #firstname,
 #surname
 {
-    font-size: 70px;
+    font-size: 35px;
+    letter-spacing: 1rem;
 }
 
 .line
