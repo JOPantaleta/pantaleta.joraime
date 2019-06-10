@@ -197,3 +197,9 @@ body
     margin: 10px 0 0;
     padding: 0;
 }
+
+.mediaCase ul li:nth-child(1) a:hover
+{
+    transform: scale(1.05);
+    color: blue;
+}
